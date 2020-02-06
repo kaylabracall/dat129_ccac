@@ -20,11 +20,12 @@ list_j = [0, 0, 0, 0, 0, 1, 1, 1, 0, 1]
 
 # define function that will print lists
 def list_printer(list):
-    for item in range(len(list)):
+    for item in (list):
         if item == 1:
             print('*', end = '')
         elif item == 0:
             print('x', end = '')
+    print(end = '\n')
 
 def main():
 # call function for each list             
@@ -38,6 +39,7 @@ def main():
     list_printer(list_h)
     list_printer(list_i)
     list_printer(list_j)
+    
     
 main()
 
