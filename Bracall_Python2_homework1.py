@@ -21,24 +21,25 @@ list_j = [0, 0, 0, 0, 0, 1, 1, 1, 0, 1]
 # define function that will print lists
 def list_printer(list):
     for item in (list):
+        # one is "on"
         if item == 1:
-            print('*', end = '')
+            print('X', end = '')
+        # zero is "off"
         elif item == 0:
-            print('x', end = '')
+            print('*', end = '')
     print(end = '\n')
+# pull lists into master list so that list_printer only has to be called once  
+list_master = [list_a, list_b, list_c, list_d, list_e, list_f, list_g, list_h, 
+               list_i, list_j]
 
+
+def master_list_printer(master_list):
+    for list in master_list:
+        list_printer(list)
+        
 def main():
 # call function for each list             
-    list_printer(list_a)
-    list_printer(list_b)
-    list_printer(list_c)
-    list_printer(list_d)
-    list_printer(list_e)
-    list_printer(list_f)
-    list_printer(list_g)
-    list_printer(list_h)
-    list_printer(list_i)
-    list_printer(list_j)
+    master_list_printer(list_master)
     
     
 main()
