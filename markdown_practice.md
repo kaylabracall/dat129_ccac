@@ -49,6 +49,7 @@ Paragraph text to break up list examples
 * To put a code block within a list item, the code block needs to be indented twice - 8 spaces or two tabs
 * list item with a code block:
 		<code goes here>
+>
 
 In order to avoid starting a numbered list when you don't want to, the number should be written with an escape character "\."
 
