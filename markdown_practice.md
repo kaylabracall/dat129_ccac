@@ -48,7 +48,7 @@ Paragraph text to break up list examples
 	> inside a list item. The delimiter must be indented
 * To put a code block within a list item, the code block needs to be indented twice - 8 spaces or two tabs
 * list item with a code block:
-		code goes here
+		code goes here (won't display correctly in document without code)
 
 In order to avoid starting a numbered list when you don't want to, the number should be written with an escape character "\."
 
