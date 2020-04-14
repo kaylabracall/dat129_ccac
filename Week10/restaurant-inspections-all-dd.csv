@@ -1,0 +1,33 @@
+Column Name,Description,Format/Example Data
+ENCOUNTER,Identifier for distinct inspection,NUMBER (12)
+ID,Identifier for distinct restaurant,NUMBER (12)
+PLACARD_ST,Inspection Result,
+PLACARD_DESC,Inspection Result Description,e.g. Inspected & Permitted
+FACILITY_NAME,Name of facility,VARCHAR
+BUS_ST_DATE,Business start date,MM/DD/YYYY
+CATEGORY_CD,Facility category code (see description),
+DESCRIPTION,Type of facility,"e.g. Restaurant with Liquor, Church Kitchen, etc."
+NUM,Street number of facility,VARCHAR
+STREET,Street address of facility,VARCHAR
+CITY,Mailing city of facility,
+STATE,State of the facility,PA
+ZIP,Zip code of the city,CHAR
+INSPECT_DT,Date of inspection,MM/DD/YYYY
+START_TIME,Start time of inspection,HH:MM AM/PM
+END_TIME,End time of inspection,HH:MM AM/PM
+MUNICIPAL,Municipality,
+ISPT_PURPOSE,Purpose Code,
+ABRV,Purpose Abbreviation,
+PURPOSE,Purpose,"Initial, Remodel, etc"
+REISPT_CD,Reinspection needed?,1=yes
+REISPT_DT,Target reinspection date,
+STATUS,Facility Status,8 Pending
+STATUS,Facility Status,0 Inactive
+STATUS,Facility Status,1 Active
+STATUS,Facility Status,2 Seasonal
+STATUS,Facility Status,3 Temporary
+STATUS,Facility Status,4 Transient
+STATUS,Facility Status,5 Consumer Alert
+STATUS,Facility Status,6 Administrative Closure
+STATUS,Facility Status,7 Out of Business
+STATUS,Facility Status,9 Pre-Operational

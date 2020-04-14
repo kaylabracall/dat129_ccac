@@ -12,11 +12,11 @@ In this project, information was scraped from yarn.com. First, a search was perf
 * Code Output
 
 ## HTML from yarn.com
-This screenshot shows the highlighted <span> element containing the text of the of which our python scrapes to find yarn price.
+This screenshot shows the highlighted span element containing the text of the of which our python scrapes to find yarn price.
 
 ![Screenscrape of yarn.com - Price](price_html.png) "html viewed in dev tools"
 
-This screenshot shows the highlighted <div> element containing the text of the of which our python scrapes to find yarn weight.
+This screenshot shows the highlighted div element containing the text of the of which our python scrapes to find yarn weight.
 
 ![Screenscrape of yarn.com - Weight](weight.png) "html viewed in dev tools"
 
