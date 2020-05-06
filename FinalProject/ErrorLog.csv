@@ -1,0 +1,2 @@
+Error Log,
+ValueError,ValueError was produced when the scraping code returned a string. This could not be cast to a float and therefore produced the error. Used exception to handle
