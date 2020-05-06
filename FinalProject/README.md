@@ -38,24 +38,24 @@ The first step in the process was to identify the code html elements on yarn.com
 
 This screenshot shows the highlighted span element containing the text of the of which our python scrapes to find yarn price.
 
-![Screenscrape of yarn.com - Price](price_html.png) "html viewed in dev tools"
+![Screenscrape of yarn.com - Price](price_html.png)
 
 This screenshot shows the highlighted div element containing the text of the of which our python scrapes to find yarn weight.
 
-![Screenscrape of yarn.com - Weight](weight.png) "html viewed in dev tools"
+![Screenscrape of yarn.com - Weight](weight.png)
 
 The next step was to build code that would scrape for the price of the yarn, and find the average price for that type of yarn. This code block was repeated for each type of yarn.
-![Scraping Function](scraping_function.png) "code used to scrape website"
+![Scraping Function](scraping_function.png)
 
 After finding the average price of yarn, the next step was to scrape for weights of yarn, count the occurence of each weight, then add it to a dictionary.
 
-![Weight Dictionary Function](weight_dict_function.png) "code used to create weight dictionary"
+![Weight Dictionary Function](weight_dict_function.png)
 
 After this was completed, the next step was to "sort" the dictionary. Since dictionaries are unordered by defnition, this code pulls the dictionary information into a list, sorts that list, then puts the information back into a dictionary sorted. The first value of the dictionary is then displayed to determine the most expensive yarn and the most common weight of yarn sold. 
 
 ## Code Output
 Code: [FinalProject.ipynb](FinalProject.ipynb)
-![Code Output](final_project_code_output.png) "code output"
+![Code Output](final_project_code_output.png) 
 
 ## Limitations
 
@@ -69,4 +69,4 @@ The final limitation of this project was modularity. The finished code has a sep
 As expected, the most expensive yarn on average is yarn that is cashmere or contains cashmere. THe most common weight sold on yarn.com is DK weight yarn. 
 
 ## Project Expansion
-I'd like to expand this project to scrape more than one site online that sells yarn. Doing so would help confirm if the findings in this webscrape project hold true on other sites. I'd also like to modularize the code more, create a more robust error log, and take the unit of yarn sold into account. 
+I'd like to expand this project to scrape more than one site online that sells yarn. Doing so would help confirm if the findings in this webscrape project hold true on other sites. Additionally, I'd like to add matplotlib to the code to display some of the data in bar charts. Finally, I'd also like to modularize the code more, create a more robust error log, and take the unit of yarn sold into account. 
