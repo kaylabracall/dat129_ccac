@@ -30,7 +30,7 @@ The weights of yarns that were looked at were:
 
 ## Hypothesis
 
-My hypothesis is that cashmere would be the most expensive yarn material. Based on my own buying habits, I hypothesized that worsted weight yarn would be the most common weight sold. After scraping the site and finding the average price of each type of material, cashmere yarn was fouind to be the most expensive, on average. However, DK weight yarn was found to be the most common weight sold. 
+My hypothesis is that cashmere would be the most expensive yarn material. Based on my own buying habits, I hypothesized that worsted weight yarn would be the most common weight sold. After scraping the site and finding the average price of each type of material, cashmere yarn was found to be the most expensive, on average. However, DK weight yarn was found to be the most common weight sold. 
 
 ## Process
 
