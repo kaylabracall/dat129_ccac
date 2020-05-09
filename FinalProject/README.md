@@ -69,4 +69,4 @@ The final limitation of this project was modularity. The finished code has a sep
 As expected, the most expensive yarn on average is yarn that is cashmere or contains cashmere. THe most common weight sold on yarn.com is DK weight yarn. 
 
 ## Project Expansion
-I'd like to expand this project to scrape more than one site online that sells yarn. Doing so would help confirm if the findings in this webscrape project hold true on other sites. Additionally, I'd like to add matplotlib to the code to display some of the data in bar charts. Finally, I'd also like to modularize the code more, create a more robust error log, and take the unit of yarn sold into account. 
+I'd like to expand this project to scrape more than one site online that sells yarn. Doing so would help confirm if the findings in this webscrape project hold true on other sites. Additionally, I'd like to add matplotlib to the code to display some of the data in bar charts and add more data visualization. Finally, I'd also like to modularize the code more, create a more robust error log, and take the unit of yarn sold into account. 
